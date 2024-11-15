@@ -31,6 +31,9 @@ Attribute Information:
 - invoice_date: Invoice date. The day when a transaction was generated.
 - shopping_mall: String variable of the name of the shopping mall where the transaction was made.
 
+  ## Data Cleaning
+The dataset was thoroughly cross-checked to ensure it was clean. This process involved looking for missing values, duplicates, and outliners. After the cross-check, it was clear that the dataset was clean and needed no further cleaning. The purpose of this process is to guarantee the accuracy, reliability, and validity of the analysis. 
+
 ## Tools 
 The tool used for this analysis was Microsoft Excel.
 
