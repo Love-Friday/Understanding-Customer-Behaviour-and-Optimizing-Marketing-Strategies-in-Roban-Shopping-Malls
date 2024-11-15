@@ -15,8 +15,21 @@ In addition, a thorough analysis will help Roban Stores explore customer demogra
 3. Payment method insights
   - What are the preferred payments across different shopping malls?
     
-## Data Source
-The dataset utilized for this report compiles shopping information from 8 distinct shopping malls within Roban Stores, covering the period from 2021 to 2023. It encompasses a total of 99,000 transactions, with each transaction containing key details such as invoice numbers, customer IDs, age, gender, payment methods, product categories, quantity, cost price, sales amount, invoice dates, and shopping mall locations.
+## Dataset
+The dataset utilized for this report compiles shopping information from 8 distinct shopping malls within Roban Stores, covering the period from 2021 to 2023. It encompasses a total of 99,000 transactions(rows) and 11 columns. Below are the columns attributes. 
+
+Attribute Information:
+- invoice_no: Invoice number.This is a combination of the letter ‘I’ and a 6-digit integer uniquely assigned to each operation.
+- customer_id: Customer number. A combination of the letter ‘C’ and a 6-digit integer uniquely assigned to each operation.
+- gender: customer’s gender, either male or female.
+- age: Positive Integer variable of the customers age.
+- category: category of the purchased product, such as fashion, cosmetics etc. 
+- quantity: The quantities of each product (item) per transaction.
+- sales amount: Unit price. Numeric. Product price per unit in Turkish Liras (TL).
+- cost price: 
+- payment_method: payment method (cash, credit card or Roban Gift Card) used for the transaction.
+- invoice_date: Invoice date. The day when a transaction was generated.
+- shopping_mall: String variable of the name of the shopping mall where the transaction was made.
 
 ## Tools 
 The tool used for this analysis was Microsoft Excel.
